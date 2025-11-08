@@ -30,6 +30,7 @@ It uses **Helm** for application deployment and integrates **Prometheus & Grafan
 ---
 
 ## ⚙️ Architecture Diagram
+
 ```mermaid
 graph TD
     A[Docker Image] --> B[Helm Chart]
@@ -37,3 +38,4 @@ graph TD
     C --> D[Deployment + Service + Ingress]
     D --> E[Prometheus Metrics]
     E --> F[Grafana Dashboard]
+```
