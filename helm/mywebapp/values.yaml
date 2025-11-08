@@ -1,0 +1,15 @@
+replicaCount: 2
+image:
+  repository: nginx
+  tag: alpine
+service:
+  type: ClusterIP
+  port: 80
+ingress:
+  enabled: true
+  className: nginx
+  hosts:
+    - host: mywebapp.local
+      paths:
+        - path: /
+          pathType: Prefix

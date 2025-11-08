@@ -1,0 +1,6 @@
+apiVersion: v2
+name: mywebapp
+description: A tiny Helm chart for a demo web app
+type: application
+version: 0.1.0
+appVersion: "1.0.0"

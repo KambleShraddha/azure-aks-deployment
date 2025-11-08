@@ -1,0 +1,1 @@
+{"title":"MyWebApp Uptime","panels":[{"type":"stat","title":"Pod Ready","targets":[{"expr":"kube_pod_status_ready"}]}],"schemaVersion":39,"version":1}
