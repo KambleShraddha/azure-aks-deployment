@@ -29,7 +29,7 @@ It uses **Helm** for application deployment and integrates **Prometheus & Grafan
 
 ---
 
-## ⚙️ Architecture Diagram
+### ⚙️ Architecture Diagram
 
 ```mermaid
 graph TD
