@@ -38,4 +38,5 @@ graph TD
     C --> D[Deployment + Service + Ingress]
     D --> E[Prometheus Metrics]
     E --> F[Grafana Dashboard]
+```
 
