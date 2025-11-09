@@ -29,14 +29,13 @@ It uses **Helm** for application deployment and integrates **Prometheus & Grafan
 
 ---
 
-### ⚙️ Architecture Diagram
+## ⚙️ Architecture Diagram
 
 ```mermaid
-graph TD
+flowchart TD
     A[Docker Image] --> B[Helm Chart]
-    B --> C[Kubernetes Cluster (AKS / kind)]
+    B --> C[Kubernetes Cluster (AKS or kind)]
     C --> D[Deployment + Service + Ingress]
     D --> E[Prometheus Metrics]
     E --> F[Grafana Dashboard]
-```
 
